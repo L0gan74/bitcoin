@@ -1,0 +1,309 @@
+.description {
+  background-image: url("../public/main-fon.png");
+  min-height: 1240px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.planet {
+  width: 749px;
+  height: 900px;
+  position: absolute;
+  right: 0;
+  top: -70px;
+  z-index: 1;
+}
+
+.text {
+  padding-top: 179px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+  position: relative;
+}
+
+.text span {
+  padding-top: 20px;
+}
+
+.text h1 {
+  max-width: 674px;
+  background: linear-gradient(
+    91.92deg,
+    #ffffff 29.24%,
+    rgba(176, 250, 255, 0) 131.64%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  padding-bottom: 16px;
+}
+
+.text p {
+  font-family: "Hauora";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ffffff;
+  opacity: 0.8;
+  max-width: 567px;
+}
+
+.slide {
+  width: 353px !important;
+  height: 460px !important;
+}
+
+.card {
+  background: #151822;
+  border-radius: 8px;
+  padding: 30px 50px 0 30px;
+}
+
+.mySwiper {
+  height: 500px !important;
+}
+
+.title {
+  font-family: "Hauora";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ffffff;
+  opacity: 0.8;
+  padding-bottom: 5px;
+}
+
+.bold {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 109.1%;
+  color: #ffffff;
+  padding-bottom: 16px;
+}
+
+.description_txt {
+  font-family: "Hauora";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  opacity: 0.8;
+  padding-bottom: 32px;
+}
+
+.card_btn {
+  font-family: "Hauora";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  padding: 16px 32px;
+  background: #1d9a6d;
+  box-shadow: 0px 8px 16px rgba(75, 72, 241, 0.19);
+  border-radius: 12px;
+}
+
+.support {
+  position: relative;
+  padding-top: 127px;
+}
+
+.backgraund {
+  position: absolute;
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 180px;
+  line-height: 109.1%;
+  background: linear-gradient(
+    91.92deg,
+    rgba(255, 255, 255, 0.05) 29.24%,
+    rgba(176, 250, 255, 0) 131.64%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.supportDesc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.supportDescText h2 {
+  background: linear-gradient(
+    91.92deg,
+    #ffffff 29.24%,
+    rgba(176, 250, 255, 0) 131.64%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  padding-top: 72px;
+  padding-bottom: 24px;
+}
+
+.supportDescText p {
+  font-family: "Hauora";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ffffff;
+  opacity: 0.8;
+  max-width: 567px;
+}
+
+.supportDescText img {
+  margin-top: 46px;
+  cursor: pointer;
+}
+
+.wallet {
+  background-image: url("../public/walletFon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 611px;
+}
+
+.wallet {
+  padding: 84px 0;
+}
+
+.walletText {
+  padding-top: 42px;
+}
+
+.walletText h2 {
+  background: linear-gradient(
+    91.92deg,
+    #ffffff 29.24%,
+    rgba(176, 250, 255, 0) 131.64%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  max-width: 351px;
+  padding-bottom: 16px;
+}
+
+.walletText p {
+  font-family: "Hauora";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ffffff;
+  opacity: 0.8;
+  padding-bottom: 40px;
+  max-width: 420px;
+}
+
+.walletImg {
+  width: 190px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.walletImg img {
+  cursor: pointer;
+}
+
+.walletText button {
+  padding: 14px 24px 15px 20px;
+  gap: 10px;
+  background: rgba(98, 127, 227, 0.15);
+  border-radius: 12px;
+  font-family: "Hauora";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #8886ff;
+  display: flex;
+  align-items: center;
+  margin-top: 32px;
+  transition: all 0.5s;
+}
+
+.walletText button svg {
+  margin-left: 28px;
+  transition: all 0.5s;
+  position: relative;
+  bottom: 2px;
+}
+
+.walletText button:hover {
+  background: rgba(98, 127, 227, 0.7);
+  color: #ffffff;
+}
+
+.walletText button:hover svg {
+  fill: #ffffff;
+}
+
+.walletBlock {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ready {
+  position: relative;
+  padding: 126px 0 60px 0;
+}
+
+.readyFon {
+  font-family: "Golos";
+  font-weight: 700;
+  font-size: 180px;
+  line-height: 109.1%;
+  background: linear-gradient(
+    91.92deg,
+    rgba(255, 255, 255, 0.05) 29.24%,
+    rgba(176, 250, 255, 0) 131.64%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  position: absolute;
+}
+
+.readyHeader {
+  padding-bottom: 49px;
+  text-align: center;
+}
+
+.readyHeader h2 {
+  background: linear-gradient(
+    91.92deg,
+    #ffffff 29.24%,
+    rgba(176, 250, 255, 0) 131.64%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  padding-bottom: 16px;
+}
+
+.readyHeader p {
+  font-family: "Hauora";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ffffff;
+  opacity: 0.8;
+  max-width: 543px;
+  margin: 0 auto;
+}
+
+.readyBlock {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 24px;
+}

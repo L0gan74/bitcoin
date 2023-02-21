@@ -1,0 +1,79 @@
+.header {
+  height: 68px;
+  background: linear-gradient(
+    267.43deg,
+    rgba(0, 255, 163, 0.12) 36.58%,
+    rgba(31, 26, 255, 0.2) 80.91%
+  );
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.05);
+}
+
+.full {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 68px;
+  max-width: 1090px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav ul {
+  margin-left: 37px;
+}
+
+.nav li {
+  padding-right: 43px;
+}
+
+.nav a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: rgba(255, 255, 255, 0.42);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.nav a:hover {
+  color: #ffffff;
+}
+
+.nav li:last-child {
+  padding-right: 0;
+  color: #ffffff;
+}
+
+.right {
+  display: flex;
+}
+
+.language,
+.wallet {
+  padding: 7px 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0px 4px 9px rgba(176, 176, 176, 0.1);
+  backdrop-filter: blur(4px);
+  border-radius: 8px;
+  margin-left: 10px;
+}
+
+.language span,
+.wallet span {
+  font-family: "Hauora";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-left: 10px;
+}
