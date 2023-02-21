@@ -1,0 +1,27 @@
+.footer {
+  background: #151822;
+  padding: 44px 0 20px 0;
+}
+
+.block {
+  display: grid;
+  grid-template-columns: 195px 175px 145px 160px 305px;
+  grid-gap: 30px;
+}
+.item {
+}
+
+.top {
+  font-family: "Hauora";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 112.6%;
+  color: #ffffff;
+  padding-bottom: 32px;
+}
+
+.img{
+    width: 116px;
+    display: flex;
+    justify-content: space-between;
+}

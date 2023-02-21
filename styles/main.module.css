@@ -271,6 +271,8 @@
   background-clip: text;
   text-fill-color: transparent;
   position: absolute;
+  left: calc(50% - 290px);
+  top: 0;
 }
 
 .readyHeader {
@@ -306,4 +308,128 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 24px;
+}
+
+.readyItem {
+  background: #151822;
+  border-radius: 8px;
+  padding: 28px 0 0 35px;
+  height: 257px;
+  position: relative;
+}
+
+.readyItemHeader {
+  font-family: "Hauora";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 112.6%;
+  color: #ffffff;
+  padding-right: 28px;
+}
+
+.readyItemHeader span {
+  font-weight: 600;
+  line-height: 32px;
+  opacity: 0.8;
+}
+
+.readyItemTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hr {
+  width: 240px;
+  height: 1px;
+  display: block;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.readyItem h3 {
+  padding-top: 10px;
+  position: relative;
+  z-index: 2;
+}
+
+.readyItem img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.readyItem img:nth-child(2) {
+  transform: rotate(-5.33deg);
+}
+
+.update {
+  padding: 75px 0 75px 54px;
+  background-image: url("../public/updateFon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 28px;
+  margin-top: 32px;
+}
+
+.update h2 {
+  background: linear-gradient(
+    91.92deg,
+    #ffffff 29.24%,
+    rgba(176, 250, 255, 0) 131.64%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  padding-bottom: 16px;
+}
+
+.update p {
+  font-family: "Hauora";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ffffff;
+  opacity: 0.8;
+  max-width: 507px;
+  padding-bottom: 32px;
+}
+
+.mail {
+  width: 641px;
+  position: relative;
+}
+
+.mail input {
+  width: 661px;
+  height: 64px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 4px 41px rgba(0, 0, 0, 0.13);
+  backdrop-filter: blur(2px);
+  border-radius: 14px;
+  padding-left: 31px;
+  outline: none;
+  font-family: "Hauora";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  border: 0;
+}
+
+.mail button {
+  width: 168px;
+  height: 49px;
+  background: #279d88;
+  box-shadow: 0px 4px 16px rgba(0, 255, 163, 0.26);
+  border-radius: 66px;
+  font-family: "Hauora";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  position: absolute;
+  right: 0px;
+  top: 6px;
 }

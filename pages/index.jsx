@@ -150,7 +150,65 @@ export default function Home() {
               сообществе BTCA.
             </p>
           </div>
-          <div className={style.readyBlock}></div>
+          <div className={style.readyBlock}>
+            <div className={style.readyItem}>
+              <div className={style.readyItemTop}>
+                <p className={style.readyItemHeader}>
+                  1 <span>шаг</span>
+                </p>
+                <span className={style.hr}></span>
+              </div>
+              <h3>Скачайте приложение</h3>
+              <Image
+                src="/readyItem_1.png"
+                width={121}
+                height={192}
+                alt="photo"
+              />
+            </div>
+            <div className={style.readyItem}>
+              <div className={style.readyItemTop}>
+                <p className={style.readyItemHeader}>
+                  2 <span>шаг</span>
+                </p>
+                <span className={style.hr}></span>
+              </div>
+              <h3>Регестрируйтесь</h3>
+              <Image
+                src="/readyItem_2.png"
+                width={208}
+                height={160}
+                alt="photo"
+              />
+            </div>
+            <div className={style.readyItem}>
+              <div className={style.readyItemTop}>
+                <p className={style.readyItemHeader}>
+                  3 <span>шаг</span>
+                </p>
+                <span className={style.hr}></span>
+              </div>
+              <h3>Пользуйтесь</h3>
+              <Image
+                src="/readyItem_3.png"
+                width={180}
+                height={180}
+                alt="photo"
+              />
+            </div>
+          </div>
+          <div className={style.update}>
+            <h2>Никогда не пропускайте обновления</h2>
+            <p>
+              Подпишитесь на информационный бюллетень и будьте первым, кто
+              получит новейшие оповещения, объявления и обновления о разработках
+              BTCA.
+            </p>
+            <form className={style.mail}>
+              <input type="email" placeholder="Ваш e-mail" required />
+              <button type="submit">Подписаться</button>
+            </form>
+          </div>
         </div>
       </div>
     </main>
