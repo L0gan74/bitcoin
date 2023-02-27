@@ -7,8 +7,29 @@
   display: grid;
   grid-template-columns: 195px 175px 145px 160px 305px;
   grid-gap: 30px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #0d111b;
 }
+
 .item {
+  height: 291px;
+  position: relative;
+}
+
+.item ul {
+  display: block;
+}
+
+.item li {
+  padding-bottom: 18px;
+}
+
+.item a {
+  font-family: "Hauora";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 112.6%;
+  color: #adadad;
 }
 
 .top {
@@ -20,8 +41,41 @@
   padding-bottom: 32px;
 }
 
-.img{
-    width: 116px;
-    display: flex;
-    justify-content: space-between;
+.images {
+  width: 116px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 29px;
+}
+
+.description {
+  font-family: "Hauora";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 155.1%;
+  color: #adadad;
+  max-width: 291px;
+}
+
+.link {
+  width: 240px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+}
+
+.bottom {
+  padding-top: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom p {
+  font-family: "Hauora";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #ffffff;
+  opacity: 0.8;
 }

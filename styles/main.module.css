@@ -41,7 +41,7 @@
 }
 
 .text p {
-  font-family: "Hauora";
+  font-family: "Hauora Sans";
   font-weight: 600;
   font-size: 18px;
   line-height: 32px;
@@ -66,7 +66,7 @@
 }
 
 .title {
-  font-family: "Hauora";
+  font-family: "Hauora Sans";
   font-weight: 600;
   font-size: 18px;
   line-height: 32px;
@@ -86,7 +86,7 @@
 }
 
 .description_txt {
-  font-family: "Hauora";
+  font-family: "Hauora Sans";
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -96,7 +96,7 @@
 }
 
 .card_btn {
-  font-family: "Hauora";
+  font-family: "Hauora Sans";
   font-weight: 700;
   font-size: 16px;
   line-height: 22px;
@@ -150,7 +150,7 @@
 }
 
 .supportDescText p {
-  font-family: "Hauora";
+  font-family: "Hauora Sans";
   font-weight: 600;
   font-size: 18px;
   line-height: 32px;
@@ -194,7 +194,7 @@
 }
 
 .walletText p {
-  font-family: "Hauora";
+  font-family: "Hauora Sans";
   font-weight: 600;
   font-size: 18px;
   line-height: 32px;
@@ -219,7 +219,7 @@
   gap: 10px;
   background: rgba(98, 127, 227, 0.15);
   border-radius: 12px;
-  font-family: "Hauora";
+  font-family: "Hauora Sans";
   font-weight: 700;
   font-size: 16px;
   line-height: 22px;
@@ -294,7 +294,7 @@
 }
 
 .readyHeader p {
-  font-family: "Hauora";
+  font-family: "Hauora Sans";
   font-weight: 600;
   font-size: 18px;
   line-height: 32px;
@@ -319,7 +319,7 @@
 }
 
 .readyItemHeader {
-  font-family: "Hauora";
+  font-family: "Hauora Sans";
   font-weight: 800;
   font-size: 18px;
   line-height: 112.6%;
@@ -386,7 +386,7 @@
 }
 
 .update p {
-  font-family: "Hauora";
+  font-family: "Hauora Sans";
   font-weight: 600;
   font-size: 18px;
   line-height: 32px;
@@ -410,7 +410,7 @@
   border-radius: 14px;
   padding-left: 31px;
   outline: none;
-  font-family: "Hauora";
+  font-family: "Hauora Sans";
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -424,7 +424,7 @@
   background: #279d88;
   box-shadow: 0px 4px 16px rgba(0, 255, 163, 0.26);
   border-radius: 66px;
-  font-family: "Hauora";
+  font-family: "Hauora Sans";
   font-weight: 700;
   font-size: 16px;
   line-height: 22px;

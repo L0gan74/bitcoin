@@ -1,5 +1,50 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800&display=swap");
 
+@font-face {
+  font-family: "Golos";
+  src: url("./fonts/GolosText-Bold.woff") format("woff"),
+    url("./fonts/GolosText-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Hauora Sans";
+  src: url("./fonts/hauora-sans-latin-400-normal.woff") format("woff"),
+    url("./fonts/hauora-sans-latin-400-normal.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Hauora Sans";
+  src: url("./fonts/hauora-sans-latin-600-normal.woff") format("woff"),
+    url("./fonts/hauora-sans-latin-600-normal.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Hauora Sans";
+  src: url("./fonts/hauora-sans-latin-700-normal.woff") format("woff"),
+    url("./fonts/hauora-sans-latin-700-normal.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Hauora Sans";
+  src: url("./fonts/hauora-sans-latin-800-normal.woff") format("woff"),
+    url("./fonts/hauora-sans-latin-800-normal.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -61,7 +106,7 @@ h3 {
   margin: 0 auto;
 }
 
-button{
+button {
   border: 0;
   cursor: pointer;
 }
